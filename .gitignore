@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+.env
+.env.*
+!.env.example
+
+# Raw local runs may contain absolute user paths; publish reviewed redacted copies only.
+/artifacts/
