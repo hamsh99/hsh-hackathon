@@ -21,7 +21,8 @@
 - 하네스 자체 자동 검사에서 알려진 실패 없음. 구체 결과는 최신 기록으로 재확인.
 - 실제 제품 UI·개발 라우트 분리·외부 AI 호출·공식 제출은 미실행.
 - 별도 Codex 세션의 실제 handoff 리허설은 미실행.
-- GitHub 공개 대상: hamsh99/hsh-hackathon. 원격 업로드 완료 여부는 실제 저장소에서 확인.
+- GitHub 공개 완료: hamsh99/hsh-hackathon. 파일 일치·설치 확인은 PUBLICATION.md 참조.
+- 현재 실행 환경의 DNS 문제로 실제 git clone은 미확인. 사용자 환경에서 README 명령으로 확인.
 
 사용자 결정·Codex 판단·한계는 DECISIONS.md 참조. TASK에 기능별 상태를 관리한다.
 
