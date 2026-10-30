@@ -1,10 +1,9 @@
+.DS_Store
 __pycache__/
 *.pyc
 .venv/
-work/
+node_modules/
 .env
 .env.*
 !.env.example
-
-# Raw local runs may contain absolute user paths; publish reviewed redacted copies only.
-/artifacts/
+_harness/

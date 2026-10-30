@@ -1,7 +1,0 @@
-{
-  "version": 1,
-  "checks": [],
-  "originals": {"mode": "undecided", "paths": [], "reason": ""},
-  "submission": {"include": [], "exclude": ["work", ".git", ".env"], "required_files": []},
-  "release": {"required_checks": [], "manual_review_check": ""}
-}
