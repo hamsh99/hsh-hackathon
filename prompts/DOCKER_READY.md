@@ -61,4 +61,4 @@ DB·데이터 보존이 요구되면 빈 DB 준비·저장, 컨테이너 재시�
 빌드 환경이나 Docker가 없으면 원인과 미확인 검사를 기록한다. 정적 파일 점검을 실행 성공으로 대신하지 않는다.
 기존 역할이 있는 문서·설정은 재사용하며, 이 요청문을 읽었다고 별도 서버·DB·컨테이너 수를 고정하지 않는다.
 
-참고: [Docker Compose 공식 설명](https://docs.docker.com/compose/).
+참고: Docker Docs, Docker Compose.

@@ -47,12 +47,12 @@ MD의 mermaid 코드 블록은 텍스트로 저장할 수 있다. 그림으로 �
 지원하지 않는 환경에서는 코드만 보일 수 있으므로 저장과 렌더링 확인을 구별한다.
 
 - MD + Mermaid: 편집 가능한 원본. 현재 뷰어의 지원 여부를 확인한다.
-- MD + SVG·PNG: 그림 파일을 함께 보관하고 상대 경로로 참조한다. 보는 사람은 Mermaid 설치가 필요 없다.
+- MD + SVG·PNG: 그림 파일을 함께 보관하고 파일 목록에서 찾을 경로를 코드로 적는다. 보는 사람은 Mermaid 설치가 필요 없다.
 - 독립 HTML: 그림을 포함해 외부 CDN·네트워크 없이 볼 수 있게 구성한다.
 
 변환하려면 생성 환경에 렌더러가 필요할 수 있다. 도구가 없으면 간단한 도식은 SVG로 직접 작성하거나 기존 허용 도구를 활용한다.
 도식화를 이유로 과제 데이터를 외부 서비스에 업로드하지 않는다. 외부 플러그인·온라인 편집기 연결을 기본 절차로 삼지 않는다.
-도식은 짧은 레이블과 읽기 쉬운 방향을 사용하고, 한 줄에 너무 많은 노드를 늘어놓지 않는다. 복잡하면 관점별로 나눈다.
+독립 HTML에서도 이동 링크나 외부 페이지 열기 동작을 넣지 않는다. 도식은 짧은 레이블과 읽기 쉬운 방향을 사용하고, 한 줄에 너무 많은 노드를 늘어놓지 않는다. 복잡하면 관점별로 나눈다.
 실제 파일·설정과 모순되거나 미구현 기능을 구현된 것처럼 그리지 않는다.
 
-참고: [Mermaid 소개](https://mermaid.js.org/intro/), [Markdown의 Mermaid 코드 블록](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+참고: Mermaid 공식 문서, About Mermaid, GitHub Docs, Creating diagrams.
